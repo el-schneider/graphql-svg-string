@@ -1,0 +1,19 @@
+{
+    "name": "el-schneider/graphql-svg-string",
+    "autoload": {
+        "psr-4": {
+            "ElSchneider\\GraphqlSvgString\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Graphql Svg String",
+            "description": "Graphql Svg String addon"
+        },
+        "laravel": {
+            "providers": [
+                "ElSchneider\\GraphqlSvgString\\ServiceProvider"
+            ]
+        }
+    }
+}
